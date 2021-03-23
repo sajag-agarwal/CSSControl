@@ -1,0 +1,56 @@
+@media screen and (max-width: 720px) {
+   .modal {
+    width: 360px;
+    height: 100px;
+    grid-auto-columns: 1fr 40px;
+  }
+  .modal span {
+    font-size: 30px;
+  }
+  .modal p {
+    font-size: 12px;
+  }
+  .modal i {
+    font-size: 12px;
+  }
+  .modal div {
+    font-size: 12px;
+  }
+  .alert {
+    width: 360px;
+    height: 100px;
+    grid-auto-columns: 1fr 40px;
+  }
+  .alert span {
+    font-size: 30px;
+  }
+  .alert p {
+    font-size: 12px;
+  }
+  .alert i {
+    font-size: 12px;
+  }
+
+  
+  .nav-i{
+    display:initial;
+  }
+  nav{
+    display:none;
+  }
+  .nav-list > li{
+    display: block;
+  }
+
+
+  .navigation-container img{
+    max-width: 6rem;
+    max-height: 4rem;
+  }
+  .nav-link{
+    font-size: 0.5rem;
+  }
+  .nav-heading{
+    font-size: 1rem;
+  }
+}

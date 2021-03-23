@@ -1,0 +1,30 @@
+nav {
+  grid-area: nav;
+  background-color: red;
+  padding: 1rem;
+}
+
+header {
+    grid-area: header;
+    background-color: blue;
+    padding: 1rem;
+}
+
+main{
+    grid-area: doc;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+.doc-site-layout {
+    display: grid;
+    width: 100%;
+    height: 250px;
+    grid-template-rows: 50px 1fr 1fr 30px;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:
+    "header header header header"
+    "nav doc doc doc"
+    "nav doc doc doc";
+}
+
