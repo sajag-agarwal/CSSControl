@@ -12,10 +12,20 @@
   --fixed-border-radius: 0.5rem;
   --button-size: 2rem;
   --button-text-size: 1.8rem;
+  --dark-green: #51e51f;
+  --normal-yellow: #ffff00;
+  --normal-red: #e00000;
+  --normal-black: black;
+  --normal-white: white;
+  --normal-gray: gray;
+  --normal-green: green;
 }
 
 body {
   margin: 0;
+}
+iframe{
+    padding-top: 2rem;
 }
 
 .container-flex {
@@ -30,7 +40,7 @@ body {
 .side-nav{
   padding-left: 1rem;
   margin-top: 1rem;
-  border-right: 1px solid black;
+  border-right: 1px solid var(--normal-black);
   width: 20%;
   display: flex;
   flex-direction: row;
@@ -47,7 +57,7 @@ body {
   position: absolute;
   left: 25%;
   right: 25%;
-  color: gray
+  color: var(--normal-gray);
 }
 .content hr{
   margin-right: inherit;
@@ -58,7 +68,7 @@ body {
 }
 .side-nav a{
   text-decoration: none;
-  color: black;
+  color: var(--normal-black);
 }
 .side-nav a:hover{
   color: var(--primary-color);
@@ -84,7 +94,7 @@ body {
 /* navigation */
 header{
   background-color: var(--primary-color);
-  color: white;
+  color: var(--normal-white);
   position: relative;
   width: 100%;
   align-items: center;
@@ -173,6 +183,7 @@ nav {
   position: relative;
   width: max-content;
   padding: 0em;
+  display: inline-block;
 }
 .avatarbadge img{
   margin: 0em;
@@ -184,7 +195,7 @@ nav {
   bottom: 0.2em;
 }
 .avatarbadge i.active{
-  color: green;
+  color: var(--normal-green);
 }
 .avatarbadge i.inactive{
   color: goldenrod;
@@ -220,30 +231,30 @@ nav {
 }
 .alert-success span,
 .alert-success i {
-  background-color: #51e51f;
-  color: white;
+  background-color: var(--dark-green);
+  color: var(--normal-white);
 }
 .alert-success p {
-  background-color: white;
-  color: #51e51f;
+  background-color: var(--normal-black);
+  color: var(--dark-green);
 }
 .alert-warning span,
 .alert-warning i {
-  background-color: #ffff00;
-  color: black;
+  background-color: var(--normal-yellow);
+  color: var(--normal-black);
 }
 .alert-warning p {
-  background-color: black;
-  color: #ffff00;
+  background-color: var(--normal-black);
+  color: var(--normal-yellow);
 }
 .alert-failure span,
 .alert-failure i {
-  background-color: #e00000;
-  color: white;
+  background-color: var(--normal-red);
+  color: var(--normal-white);
 }
 .alert-failure p {
-  background-color: white;
-  color: #e00000;
+  background-color: var(--normal-black);
+  color: var(--normal-red);
 }
 
 /* badges */
@@ -251,17 +262,17 @@ nav {
   font-size: 0.75rem;
   padding: 0.125em 0.125em;
   font-weight: bold;
-  color: green;
-  background-color: white;
-  border: 1px solid black;
+  color: var(--normal-green);
+  background-color: var(--normal-white);
+  border: 1px solid var(--normal-black);
 }
 .badge-medium {
   font-size: 1rem;
   padding: 0.5em 0.5em;
   font-weight:bold;
-  color: green;
-  background-color: white;
-  border: 1px solid black;
+  color: var(--normal-green);
+  background-color: var(--normal-white);
+  border: 1px solid var(--normal-black);
 }
 
 
@@ -271,7 +282,7 @@ nav {
   cursor: pointer;
 }
 .image.image-responsive:hover {
-  box-shadow: 3px 3px 3px 3px #888888;
+  box-shadow: 3px 3px 3px 3px var(--off-white);
 }
 .image.image-circular {
   border-radius: 50%;
@@ -297,12 +308,12 @@ nav {
 }
 .button-primary {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--normal-white);
 }
 .button-secondary {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
-  background-color: white;
+  background-color: var(--normal-white);
 }
 .button-icon {
   padding: 0;
@@ -369,7 +380,7 @@ nav {
 
 /* Toast */
 #toast {
-  border: 1px solid black;
+  border: 1px solid var(--normal-black);
   margin: auto;
   color: var(--primary-color);
   min-width: 20vw;
@@ -395,7 +406,7 @@ nav {
   max-width: 100%;
   text-align: left;
   padding: 0.5em;
-  background: white;
+  background: var(--normal-white);
   border: 1px solid var(--primary-color);
   box-shadow: 1px 1px 1px 1px var(--secondary-color);
   border-radius: 0.5em;
@@ -485,7 +496,7 @@ nav {
   grid-area: modal-p;
   padding: inherit;
   margin: 0;
-  background-color: white;
+  background-color: var(--normal-white);
   color: var(--primary-color);
 }
 .modal i {
@@ -507,7 +518,7 @@ nav {
 .modal i,
 .modal div {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--normal-white);
 }
 .button-modal{
   margin-bottom: 1rem;
@@ -522,10 +533,10 @@ nav {
   text-align: center;
 }
 .font.gray{
-  color: gray;
+  color: var(--normal-gray);
 }
 .font{
-  color: black;
+  color: var(--normal-black);
 }
 .font.heading1{
   font-size: 3vw;
@@ -569,7 +580,7 @@ nav {
   padding: 0.5em;
   line-height: 1.5em;
   font-size: 1.5em;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--normal-gray);
 }
 
 .list-stacked li i , .list-spaced li i{
@@ -589,7 +600,7 @@ nav {
   width: max-content;
 }
 .list-spaced li{
-  border: 1px solid gray;
+  border: 1px solid var(--normal-gray);
   margin-top: 0.5em;
 }
 
@@ -602,12 +613,13 @@ nav {
   border: 1px solid var(--primary-color);
   margin: 1rem;
   max-width: 200px;
+  margin-left: 0rem;
 }
 .card .remove{
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background-color: white;
+  background-color: var(--normal-white);
   cursor: pointer;
 }
 .card .remove:hover{
