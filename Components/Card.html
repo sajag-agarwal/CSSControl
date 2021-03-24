@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/styles.css" rel="stylesheet" />
+    <link href="/mobile.layout.css" rel="stylesheet" />
+    <link href="/desktop.layout.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../imgs/insight.svg">
+</header>
+
+<body>
+    <header>
+        <div class="navigation-container">
+            <i class="fa fa-bars nav-i"></i>
+            <img src="../imgs/insight.svg" alt="logo" />
+            <h1 class="nav-heading">CSS CONTROL</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link active" href="./GettingStarted.html">Components</a></li>
+                    <li><a class="nav-link" href="https://github.com/sajag-agarwal/CSSControl/">Github</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="side-nav">
+        <ul class="list">
+            <li><a href="./GettingStarted.html">Getting Started</a></li>
+            <li><a href="./Avatar.html">Avatar</a></li>
+            <li><a href="./Alert.html">Alert</a></li>
+            <li><a href="./Badge.html">Badge</a></li>
+            <li><a href="./Button.html">Button</a></li>
+            <li><a class="active" href="./Card.html">Card</a></li>
+            <li><a href="./Image.html">Image</a></li>
+            <li><a href="./Input.html">Input</a></li>
+            <li><a href="./List.html">List</a></li>
+            <li><a href="./Modal.html">Modal</a></li>
+            <li><a href="./Navigation.html">Navigation</a></li>
+            <li><a href="./Rating.html">Rating</a></li>
+            <li><a href="./TextUtilities.html">Text Utilities</a></li>
+            <li><a href="./Toast.html">Toast</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1 class="gray">Card</h1>
+        <p style="font-size: 1.1rem; "></p>
+        <hr>
+        <h2 class="gray">Card</h2>
+        <div class="card">
+            <img class="image image-responsive" src="https://via.placeholder.com/150" />
+            <h1> heading </h1>
+            <p>Description</p>
+            <button class="button button-primary">Primary Button</button>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%2520heading%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%253EDescription%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            style="width: 586px; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="gray">Cards with shadow</h2>
+        <div class="card card-shadow">
+            <img class="image image-responsive" src="https://via.placeholder.com/150" />
+            <h1> heading </h1>
+            <p>Description</p>
+            <button class="button button-primary">Primary Button</button>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2520image-responsive%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%2520heading%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%253EDescription%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            style="width: 713px; height: 185px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="gray">Horizontal cards</h2>
+        <div class="horizontal-card card-shadow">
+            <img class="image image-responsive" src="https://via.placeholder.com/150" />
+            <div>
+                <h1> heading </h1>
+                <p>Description</p>
+                <button class="button button-primary">Primary Button</button>
+            </div>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522horizontal-card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2520image-responsive%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253E%2520heading%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EDescription%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="width: 713px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="gray">Cards with dismiss</h2>
+        <div class="card card-shadow">
+            <button class="remove"><i class="fa fa-close"></i></button>
+            <img class="image image-responsive" src="https://via.placeholder.com/150" />
+            <h1>heading</h1>
+            <p>Description</p>
+            <button class="button button-primary">Primary Button</button>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522remove%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522image%2520image-responsive%2522%2520src%253D%2522https%253A%252F%252Fvia.placeholder.com%252F150%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Ch1%253E%2520heading%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%253EDescription%253C%252Fp%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-primary%2522%253EPrimary%2520Button%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+            style="width: 713px; height: 203px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+        <h2 class="gray">Text only cards</h2>
+        <div class="card card-shadow">
+            <h1> heading </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ducimus mollitia beatae doloribus unde neque, incidunt perferendis? Minus non illo dolore aliquid et qui cum numquam reiciendis perspiciatis, exercitationem eligendi delectus pariatur fuga est nostrum deleniti distinctio, dolor possimus quasi. Eveniet laboriosam nostrum eius, sint quibusdam provident aperiam at ab.</p>
+        </div>
+        <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card-shadow%2522%253E%250A%2520%2520%2520%2520%253Ch1%253E%2520heading%2520%253C%252Fh1%253E%250A%2520%2520%2520%2520%253Cp%253EDescroption%253C%252Fp%253E%250A%253C%252Fdiv%253E"
+            style="width: 291px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        
+        
+        <h2 class="gray">Cards with dismiss and badge</h2>
+        <div class="card card-shadow">
+            <button class="remove"><i class="fa fa-close"></i></button>
+            <span class="badge-medium">Badge 2</span>
+            <img class="image image-responsive" src="https://via.placeholder.com/150" />
+            <h1>heading</h1>
+            <p>Description</p>
+            <button class="button button-primary">Primary Button</button>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/naVMlHOwTGjYJpzH9EtA"
+            style="width: 713px; height: 222px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+        
+        
+        
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+@media screen and (min-width: 720px) {
+  .modal {
+    width: 540px;
+    height: 100px;
+    grid-auto-columns: 1fr 40px;
+  }
+  .modal span {
+    font-size: 50px;
+  }
+  .modal p {
+    font-size: 20px;
+  }
+  .modal i {
+    font-size: 20px;
+  }
+  .modal div {
+    font-size: 20px;
+  }
+  .alert {
+    width: 540px;
+    height: 100px;
+    grid-auto-columns: 1fr 40px;
+  }
+  .alert span {
+    font-size: 50px;
+  }
+  .alert p {
+    font-size: 20px;
+  }
+  .alert i {
+    font-size: 20px;
+  }
+
+  
+  .nav-list > li{
+    display: inline;
+  }
+  .navigation-container img{
+    max-width: 7rem;
+    max-height: 5rem;
+  }
+  .nav-link{
+    font-size: 1rem;
+  }
+  .nav-heading{
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alert</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/styles.css" rel="stylesheet" />
+    <link href="/mobile.layout.css" rel="stylesheet" />
+    <link href="/desktop.layout.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../imgs/insight.svg">
+    <style>
+        iframe{
+            padding-left: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navigation-container">
+            <i class="fa fa-bars nav-i"></i>
+            <img src="../imgs/insight.svg" alt="logo" />
+            <h1 class="nav-heading">CSS CONTROL</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="../index.html">Home</a></li>
+                    <li><a class="nav-link active" href="./GettingStarted.html">Components</a></li>
+                    <li><a class="nav-link" href="https://github.com/sajag-agarwal/CSSControl/">Github</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="side-nav">
+        <ul class="list">
+            <li><a href="./GettingStarted.html">Getting Started</a></li>
+            <li><a href="./Avatar.html">Avatar</a></li>
+            <li><a class="active" href="./Alert.html">Alert</a></li>
+            <li><a href="./Badge.html">Badge</a></li>
+            <li><a href="./Button.html">Button</a></li>
+            <li><a href="./Card.html">Card</a></li>
+            <li><a href="./Image.html">Image</a></li>
+            <li><a href="./Input.html">Input</a></li>
+            <li><a href="./List.html">List</a></li>
+            <li><a href="./Modal.html">Modal</a></li>
+            <li><a href="./Navigation.html">Navigation</a></li>
+            <li><a href="./Rating.html">Rating</a></li>
+            <li><a href="./TextUtilities.html">Text Utilities</a></li>
+            <li><a href="./Toast.html">Toast</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <h1 class="gray">Alert</h1>
+        <p style="font-size: 1.1rem; "></p>
+        <hr>
+
+        <h2 class="gray">Alert Success</h2>
+        <div class="alert alert-success">
+            <span>Success!</span>
+            <i class="fa fa-close" id="closeAlert1" onclick="closeAlertOnClick(id)"></i>
+            <p>Congratulations! Task was successfully completed.</p>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/DZjpLkxuKwhTTXE1QHk3"
+            style="width: 713px; height: 166px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="gray">Alert Warning</h2>
+        <div class="alert alert-warning">
+            <span>Warning!</span>
+            <i class="fa fa-close" id="closeAlert2" onclick="closeAlertOnClick(id)"></i>
+            <p>There is a warning.</p>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/RujDYwiei8UkJqmOEdfi"
+            style="width: 477px; height: 130px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+        <h2 class="gray">Alert Failure</h2>
+        <div class="alert alert-failure">
+            <span>Failure!</span>
+            <i class="fa fa-close" id="closeAlert3" onclick="closeAlertOnClick(id)"></i>
+            <p>Sorry! There seems to be some issue.</p>
+        </div>
+        <iframe src="https://carbon.now.sh/embed/461IcnrKoPmxrjWq8mxM"
+            style="width: 713px; height: 166px; border:0; transform: scale(1); overflow:hidden;"
+            sandbox="allow-scripts allow-same-origin">
+        </iframe>
+
+
+    </div>
+
+    <script src="../scriptfile.js"></script>
+</body>
+
+</html>
