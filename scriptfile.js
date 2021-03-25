@@ -35,6 +35,18 @@ function heartclick(){
         heart.classList.remove("active");
     }
 }
+
+function burgerClick(){
+    let parent = document.getElementsByClassName("navigation-container")[0];
+    let classlist = parent.classList.value.split(" ");
+    if(classlist.includes("mobile") == false){
+        parent.classList.add("mobile");
+    }
+    else{
+        parent.classList.remove("mobile");
+    }
+}
+
 function likeclick(id){
     let like = document.getElementById(id);
     let sibling = like.parentNode.childNodes[1];

@@ -1,4 +1,17 @@
 @media screen and (max-width: 720px) {
+
+
+  .side-nav a{
+    font-size: 2vmax;
+  }
+  .side-nav li{
+    margin: 0;
+  }
+  .side-nav ul, .side-nav ol{
+    justify-content: left;
+    padding-left: 0rem;
+  }
+
    .modal {
     width: 360px;
     height: 100px;
@@ -34,23 +47,27 @@
   
   .nav-i{
     display:initial;
+    cursor: pointer;
   }
   nav{
     display:none;
   }
-  .nav-list > li{
-    display: block;
-  }
-
 
   .navigation-container img{
     max-width: 6rem;
     max-height: 4rem;
   }
-  .nav-link{
-    font-size: 0.5rem;
-  }
   .nav-heading{
     font-size: 1rem;
   }
+
+  .list-stacked li, .list-spaced li{
+    line-height: 1em;
+    font-size: 1em;
+  }
+
+  .side-nav{
+    position: absolute;
+    border-right: none;
+}
 }

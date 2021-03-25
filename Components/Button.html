@@ -16,7 +16,7 @@
 <body>
     <header>
         <div class="navigation-container">
-            <i class="fa fa-bars nav-i"></i>
+            <i class="fa fa-bars nav-i" onclick="burgerClick()"></i>
             <img src="../imgs/insight.svg" alt="logo" />
             <h1 class="nav-heading">CSS CONTROL</h1>
             <nav>
@@ -48,51 +48,48 @@
     </div>
     <div class="content">
         <h1 class="gray">Button</h1>
-        <p style="font-size: 1.1rem; ">The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for
+        <p>The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for
         accessible, standard button functionality.</p>
         <hr>
 
         <h2 class="gray">Contained Buttons</h2>
-        <div class="container">
+        <div>
                 <button class="button button-primary">Primary Button</button>
                 <button class="button button-secondary">Secondary Button</button>
         </div>
-        <iframe src="https://carbon.now.sh/embed/daEF5aMbUcFQX90LP9Xm"
-            style="width: 620px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+        <iframe src="https://carbon.now.sh/embed/84YW2WjUEAcUcIN7Tqwv"
+            style="width: 637px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
         
 
         <h2 class="gray">Buttons with only Icons</h2>
-        <div class="container">
+        <div>
             <button class="button button-icon"><i class="fa fa-file"></i></button>
             <button class="button button-icon"><i class="fa fa-home"></i></button>
         </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-file%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+        <iframe src="https://carbon.now.sh/embed/bKCZmUa7Z8OobvEhSshn"
             style="width: 662px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
         
         
         <h2 class="gray">Buttons with Icons and Text</h2>
-        <div class="container">
+        <div>
             <button class="button button-icon"><i class="fa fa-file"></i><span>File</span></button>
             <button class="button button-icon"><i class="fa fa-home"></i><span>Home</span></button>
         </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-file%2522%253E%253C%252Fi%253E%253Cspan%253EFile%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253Cspan%253EHome%253C%252Fspan%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 805px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
+        <iframe src="https://carbon.now.sh/embed/5lq0go7Xn2SCndxbazxa"
+            style="width: 806px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
 
         <h2 class="gray">Floating Action Buttons</h2>
-        <div class="container">
+        <div>
             <button class="button button-floating-icon"><i class="fa fa-check"></i></button>
         </div>
-        <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=night-owl&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2520button-floating-icon%2522%253E%253Ci%2520class%253D%2522fa%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="width: 442px; height: 166px; border:0; transform: scale(1); overflow:hidden;"
+        <iframe src="https://carbon.now.sh/embed/17Ol2EJgMRuQcxwspUqP"
+            style="width: 746px; height: 148px; border:0; transform: scale(1); overflow:hidden;"
             sandbox="allow-scripts allow-same-origin">
         </iframe>
         
