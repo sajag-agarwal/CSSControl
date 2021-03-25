@@ -22,15 +22,20 @@
   --background-inactive-color: rgba(0,0,0,0.4);
 }
 
+html, body {
+  height: 100%;
+  width: 100%;
+}
 body {
   margin: 0;
 }
 iframe{
-    padding-top: 2rem;
+  padding-top: 2rem;
+  max-width: 100%;
 }
 
 .container-flex {
-  max-width: 100%;
+  width: 100%;
   position: relative;
 
   flex-wrap: wrap;
@@ -51,6 +56,7 @@ iframe{
   font-size: 1.25rem;
   position: fixed;
   left: 0;
+  
 
 }
 .side-nav ul, .side-nav li{
@@ -104,11 +110,11 @@ header{
   background-color: var(--primary-color);
   color: var(--normal-white);
   position: relative;
-  width: 100%;
   align-items: center;
   text-align: center;
   height: auto;
   display: flex;
+  width: 100%;
 }
 .navigation-container{
   padding: 1rem;
@@ -234,6 +240,7 @@ nav {
     "alert-p alert-p";
   grid-auto-rows: auto;
   padding: 4px;
+  max-width: 100%;
 }
 .alert span {
   grid-area: alert-header;
@@ -598,9 +605,7 @@ nav {
   margin: 1em 0em;
   padding: 0em;
   cursor: pointer;
-  height: 10em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  overflow-y: scroll;
+  box-shadow: 0 4px 4px 0 var(--off-white);
   width: max-content;
 }
 .list-stacked li, .list-spaced li{
