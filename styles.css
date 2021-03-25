@@ -695,9 +695,11 @@ nav {
   margin: 1rem;
   width: max-content;
   align-items: center;
+  margin-left: 0rem;
+  max-width: 100%;
 }
 .horizontal-card img{
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 .horizontal-card div p{
   flex-grow: 1;
